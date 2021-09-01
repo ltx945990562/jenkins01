@@ -3,16 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="F:/myprojects/jenkins_test">
         <classes>
-            <class name="testcases.LogIn">
-                <methods>
-                    <include name="logInSuccess"/>
-                </methods>
-            </class>
-            <class name="testcases.register">
-                <methods>
-                    <include name="registerSuccess"/>
-                </methods>
-            </class>
+            <class name="testcases.LogIn"/>
+            <class name="testcases.register"/>
         </classes>
     </test>
 </suite>
